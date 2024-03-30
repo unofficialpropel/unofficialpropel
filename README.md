@@ -1,11 +1,11 @@
 🚀 Unofficial Propel Resources 🚀
 ================================
 
-Welcome to the unofficial Propel PLM community! 🤝 This group provides a space for end-users like you to connect, share tips, and collaborate on best practices for using the [Propel Software](propelsoftware.com).
+Welcome to the unofficial Propel PLM community! 🤝 This group provides a space for end-users like you to connect, share tips, and collaborate on best practices for using [Propel Software](https://propelsoftware.com).
 
 💡 Important Notes:
 
-* This is an unofficial community of end-users and **not officially supported by Propel Software**.
+* This is an unofficial community of end-users and **not officially supported by Propel**.
 * There should be no expectation of support from the vendor or any other party.
 * The tools and content provided here are used at your own risk, with no commercial support available.
 
@@ -16,12 +16,12 @@ Welcome to the unofficial Propel PLM community! 🤝 This group provides a space
 * Opportunities to connect with other end-users, share experiences, and learn from each other.
 
 👥 Who Can Join:
-Anyone interested in Propel PLM and its integration with Salesforce is welcome to join! Whether you're a power user or just starting out, this community is here for you. 🌐
+Anyone who is a current customer using Propel is welcome to join! Whether you're a power user or just starting out, this community is here for you. 🌐
 
 🎉 How To Participate:
-Join us on [insert platform (e.g. Instagram, Twitter, YouTube)] and follow the hashtag #UnofficialPropelPLMCommunity. Share your thoughts, ask questions, and get involved in discussions! 💬
+Currently all resources are on our [GitHub](https://github.com/unofficialpropel) page and invite users to contribute to the repositorties.
 
 🤝 Guidelines:
 Please note that this community is not officially supported or endorsed by Propel Software. Any support or feedback provided should be used at your own risk. Be respectful to ensure a positive experience for all members. 🤝
 
-We hope you find this unofficial community helpful in your Propel journey. Happy connecting! 😊
+We hope you find this community helpful in your Propel journey! 😊

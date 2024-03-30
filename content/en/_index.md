@@ -1,77 +1,65 @@
 ---
-title: Goldydocs
+title: Unofficial Propel
 ---
 
-{{< blocks/cover title="Welcome to Goldydocs: A Docsy Example Project!" image_anchor="top" height="full" >}}
+{{< blocks/cover title="Welcome to Unofficial Propel" image_anchor="top" height="full" >}}
+
+<p class="lead mt-5">Community resorces for Propel Software!</p>
+
 <a class="btn btn-lg btn-primary me-3 mb-4" href="/docs/">
-  Learn More <i class="fas fa-arrow-alt-circle-right ms-2"></i>
+  Docs <i class="fas fa-arrow-alt-circle-right ms-2"></i>
 </a>
-<a class="btn btn-lg btn-secondary me-3 mb-4" href="https://github.com/google/docsy-example">
-  Download <i class="fab fa-github ms-2 "></i>
+<a class="btn btn-lg btn-secondary me-3 mb-4" href="https://github.com/unofficialpropel">
+  Resources <i class="fab fa-github ms-2 "></i>
 </a>
-<p class="lead mt-5">Porridge temperature assessment &mdash; in the cloud!</p>
+
 {{< blocks/link-down color="info" >}}
+
 {{< /blocks/cover >}}
 
 
-{{% blocks/lead color="primary" %}}
-Goldydocs provides a single web UI providing visibility into porridge
-temperature, chair size, and bed softness metrics! You can even find out who's
-been eating **your** porridge.
+{{% blocks/section color="primary" %}}
+Welcome to the unofficial Propel PLM community! 🤝 This group provides a space for end-users like you to connect, share tips, and collaborate on best practices for using [Propel Software](https://propelsoftware.com).
 
-(Sadly, Goldydocs isn't a real project, but you can use this site as an example
-to create your own real websites with [Docsy](https://docsy.dev))
-{{% /blocks/lead %}}
+💡 Important Notes:
 
+* This is an unofficial community of end-users and **not officially supported by Propel**.
+* There should be no expectation of support from the vendor or any other party.
+* The tools and content provided here are used at your own risk, with no commercial support available.
 
-{{% blocks/section color="dark" type="row" %}}
-{{% blocks/feature icon="fa-lightbulb" title="New chair metrics!" %}}
-The Goldydocs UI now shows chair size metrics by default.
+💻 Features:
 
-Please follow this space for updates!
-{{% /blocks/feature %}}
+* User-generated tools and code for getting the most out of the platform.
+* Community-driven documentation and knowledge base.
+* Opportunities to connect with other end-users, share experiences, and learn from each other.
 
+👥 Who Can Join:
+Anyone who is a current customer using Propel is welcome to join! Whether you're a power user or just starting out, this community is here for you. 🌐
 
-{{% blocks/feature icon="fab fa-github" title="Contributions welcome!" url="https://github.com/google/docsy-example" %}}
-We do a [Pull Request](https://github.com/google/docsy-example/pulls) contributions workflow on **GitHub**. New users are always welcome!
-{{% /blocks/feature %}}
+🎉 How To Participate:
+Currently all resources are on our [GitHub](https://github.com/unofficialpropel) page and invite users to contribute to the repositorties.
 
+🤝 Guidelines:
+Please note that this community is not officially supported or endorsed by Propel Software. Any support or feedback provided should be used at your own risk. Be respectful to ensure a positive experience for all members. 🤝
 
-{{% blocks/feature icon="fab fa-twitter" title="Follow us on Twitter!" url="https://twitter.com/docsydocs" %}}
-For announcement of latest features etc.
-{{% /blocks/feature %}}
-
-
+We hope you find this community helpful in your Propel journey! 😊
 {{% /blocks/section %}}
 
 
-{{% blocks/section %}}
-This is the second section
-{.h1 .text-center}
-{{% /blocks/section %}}
+{{% blocks/section color="" type="row" %}}
 
-
-{{% blocks/section type="row" %}}
-
-{{% blocks/feature icon="fab fa-app-store-ios" title="Download **from AppStore**" %}}
-Get the Goldydocs app!
+{{% blocks/feature icon="fa-lightbulb" title="Blog" %}}
+Please follow the blog for updates!
 {{% /blocks/feature %}}
 
 {{% blocks/feature icon="fab fa-github" title="Contributions welcome!"
-    url="https://github.com/google/docsy-example" %}}
-We do a [Pull Request](https://github.com/google/docsy-example/pulls)
-contributions workflow on **GitHub**. New users are always welcome!
+    url="https://github.com/unofficialpropel/unofficialpropel" %}}
+Submit a [Pull Request](https://github.com/unofficialpropel/unofficialpropel/pulls) on **GitHub**. 
+New users are always welcome!
 {{% /blocks/feature %}}
 
-{{% blocks/feature icon="fab fa-twitter" title="Follow us on Twitter!"
-    url="https://twitter.com/GoHugoIO" %}}
-For announcement of latest features etc.
+{{% blocks/feature icon="fa-book" title="Docs" href="a" %}}
+Check the documentation for tips and community contributed tools.
 {{% /blocks/feature %}}
 
-{{% /blocks/section %}}
-
-
-{{% blocks/section %}}
-This is the another section
-{.h1 .text-center}
 {{% /blocks/section %}}
