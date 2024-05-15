@@ -126,7 +126,7 @@ offlineSearch = false
 prism_syntax_highlighting = true
 
 [params.copyright]
-authors = "[McLaughlin Engineering](https://mclaughlin.engineering)"
+#authors = "[McLaughlin Engineering](https://mclaughlin.engineering)"
 #from_year = 2024
 
 # User interface configuration
