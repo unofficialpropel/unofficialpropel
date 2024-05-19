@@ -10,14 +10,7 @@ Welcome to the Unofficial Propel documentation! This site provides resources, he
 
 ## Getting Started
 
-- [Introduction](intro)
-- [Installation Guide](installation)
-- [User Guide](user-guide)
-
 ## More Resources
 
-- [API Reference](api)
-- [Community Contributions](community)
-- [FAQs](faqs)
 
 Feel free to explore and contribute!
