@@ -1,16 +1,47 @@
+# -----------------------------------------------------------------------------
+# Node, TypeScript, Python
+# -----------------------------------------------------------------------------
+
 # Dependencies
-/node_modules
+node_modules
+__pycache__
+venv
+.venv
 
-# Production
-/build
+# Build files
+build
+site
 
-# Generated files
-.docusaurus
-.cache-loader
+# Distribution files
+dist
+mkdocs_material.egg-info
 
-# Misc
+# Caches and logs
+*.cpuprofile
+*.log
+*.tsbuildinfo
+.cache
+.eslintcache
+__pycache__
+
+# Examples
+example
+example.zip
+
+# -----------------------------------------------------------------------------
+# General
+# -----------------------------------------------------------------------------
+
+# Never ignore .gitkeep files
+!**/.gitkeep
+
+# macOS internals
 .DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+
+# Temporary files
+TODO
+tmp
+
+# IDEs & Editors
+.idea
+*~
