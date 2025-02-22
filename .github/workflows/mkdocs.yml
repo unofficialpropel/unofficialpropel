@@ -18,11 +18,9 @@ jobs:
 
       - name: "Set up Python"
         uses: actions/setup-python@v5
-        with:
-          python-version-file: "pyproject.toml"
 
-      - name: Install the project
+      - name: Install the dependencies
         run: uv sync --all-extras --dev
 
-      # - run: mkdocs gh-deploy --force
-      - run: mkdocs build
+      - name: Build the Site
+        run: uv run mkdocs gh-deploy --force
