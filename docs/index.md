@@ -1,7 +1,13 @@
-🚀 About Unofficial Propel 🚀
-============================
+---
+title: Welcome
+---
+# 🚀 Unofficial Propel 🚀
 
-Welcome to Unofficial Propel! 🤝 This group provides a space for end-users like you to connect, share resources, and collaborate on best practices for using [Propel Software](https://propelsoftware.com).
+Welcome this group provides a space for end-users like you to connect, share resources, and collaborate on best practices for using [Propel Software](https://propelsoftware.com).  The tools and resources on this site are built by members of the Propel User Group.
+
+<p align="center">
+  <img src="assets/logo-pug-vertical.png" alt="PUG">
+</p>
 
 💡 Important Notes:
 
@@ -11,7 +17,7 @@ Welcome to Unofficial Propel! 🤝 This group provides a space for end-users lik
 
 💻 Features:
 
-* User-generated tools and code for getting the most out of the platform.
+* User-generated tools and examples for getting the most out of the platform.
 * Community-driven documentation and knowledge base.
 * Opportunities to connect with other end-users, share experiences, and learn from each other via the [Propel User Group](https://pug.unofficialpropel.com)
 

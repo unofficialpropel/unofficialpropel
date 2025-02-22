@@ -1,0 +1,82 @@
+site_name: Unofficial Propel
+site_url: https://unofficialpropel.com
+copyright: Unofficial Propel
+repo_url: https://github.com/unofficialpropel/unofficialpropel
+repo_name: unofficialpropel
+edit_uri: edit/main/docs/
+
+plugins:
+  - search
+  - awesome-nav
+  - open-in-new-tab:
+      add_icon: true
+  - blog:
+      enabled: true
+      blog_dir: updates
+  - git-revision-date-localized:
+      enable_creation_date: true
+      fallback_to_build_date: false
+
+theme:
+  name: material
+  icon:
+    repo: fontawesome/brands/github
+  
+  logo: assets/ufp.png
+  favicon: assets/favicon.ico
+
+  features:
+    - navigation.instant
+    - navigation.indexes
+    #- navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - navigation.footer
+    - content.action.edit
+
+  font:
+    text: Poppins
+    code: Roboto Mono
+
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo 
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+
+extra:
+
+  analytics:
+    provider: google
+    property: G-8SLEKZZS4E
+
+  social:
+    - icon: fontawesome/brands/github 
+      link: https://github.com/unofficialpropel
+    - icon: fontawesome/brands/discourse 
+      link: https://pug.unofficialpropel.com

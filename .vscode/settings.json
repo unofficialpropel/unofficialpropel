@@ -3,5 +3,11 @@
         "**/.git": false
     },
     "explorer.excludeGitIgnore": false,
-    "explorer.fileNesting.enabled": false
+    "explorer.fileNesting.enabled": false,
+    "cSpell.words": [
+        "Folge",
+        "Jetstream",
+        "pyproject",
+        "SOQL"
+    ]
 }

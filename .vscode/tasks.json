@@ -2,14 +2,25 @@
 	"version": "2.0.0",
 	"tasks": [
 		{
-			"type": "npm",
-			"script": "build",
-			"group": "build",
-			"problemMatcher": [],
-			"label": "npm: build",
+			"label": "MKDocs Serve",
+			"type": "shell",
+			"command": "mkdocs serve",
+			"group": "none",
+			"isBackground": true,
 			"presentation": {
-				"reveal": "silent"
-			}
+				"reveal": "silent",
+				"panel": "new"
+			},
+			"problemMatcher": [
+				{
+					"base": "$tsc",
+					"background": {
+						"activeOnStart": true,
+						"beginsPattern": "Building documentation",
+						"endsPattern": "Serving"
+					}
+				}
+			]
 		}
 	]
 }

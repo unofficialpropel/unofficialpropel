@@ -3,7 +3,7 @@ sidebar_position: 100
 ---
 # Notifications
 
-Everyone's favorite topic!  We dive into understanding our notification options on the Salesforce platform and details of how they are used in Propel.  Finally some resources of how you can standardize and anhance your notifications with Propel.
+Everyone's favorite topic!  We dive into understanding our notification options on the Salesforce platform and details of how they are used in Propel.  Finally some resources of how you can standardize and enhance your notifications with Propel.
 
 ## Salesforce Notifications Overview
 
@@ -47,7 +47,7 @@ Salesforce offers various types of email templates to cater to different needs a
    - Suitable for users who prefer a more modern and intuitive design experience.
    - Pros
      - Easy enough that power users can maintain templates
-     - Latest featureset from Salesforce
+     - Latest feature set from Salesforce
    - Cons
      - Not all functions in Salesforce can send this template type
 
@@ -82,4 +82,4 @@ Salesforce's robust email template and notification options allow organizations 
 
 ## Customizing Propel Notifications
 
-- [Approval Template Customization](notifications/approval_customization)
+- [Approval Template Customization](./approval_customization.md)
