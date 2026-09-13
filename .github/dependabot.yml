@@ -2,7 +2,8 @@
 # https://docs.github.com/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
 #
 # Dependabot has no native bi-weekly interval, so a cron schedule runs
-# on the 1st and 15th of each month at 09:00 UTC.
+# on the 1st and 15th of each month at 09:00 UTC. All updates for an
+# ecosystem are grouped into a single pull request.
 
 version: 2
 updates:
@@ -11,8 +12,16 @@ updates:
     schedule:
       interval: "cron"
       cronjob: "0 9 1,15 * *"
+    groups:
+      python:
+        patterns:
+          - "*"
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
       interval: "cron"
       cronjob: "0 9 1,15 * *"
+    groups:
+      github-actions:
+        patterns:
+          - "*"
