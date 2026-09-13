@@ -16,6 +16,6 @@ Some Examples:
 - Migrate metadata between orgs
 - Use a much nicer version of the SF developer console
 
-Check out Jetstream at https://getjetstream.app/ 
+Check out Jetstream at [getjetstream.app](https://getjetstream.app/)
 
 Jetstream is free to use, but recommeded to sponsor if you can.  The developer of the project is very responsive and constantly improving it!
