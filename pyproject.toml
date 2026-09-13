@@ -1,12 +1,9 @@
 [project]
 name = "unofficialpropel"
 version = "0.1.0"
-description = "Add your description here"
+description = "Unofficial Propel community site"
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.14"
 dependencies = [
-    "mkdocs-awesome-nav>=3.3.0",
-    "mkdocs-git-revision-date-localized-plugin>=1.5.4",
-    "mkdocs-material>=9.7.7",
-    "mkdocs-open-in-new-tab>=1.0.8",
+    "zensical>=0.0.62",
 ]

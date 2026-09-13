@@ -1,0 +1,81 @@
+[project]
+site_name = "Unofficial Propel"
+site_url = "https://unofficialpropel.com"
+copyright = "Unofficial Propel"
+repo_url = "https://github.com/unofficialpropel/unofficialpropel"
+repo_name = "unofficialpropel"
+edit_uri = "edit/main/docs/"
+
+# Replaces mkdocs-open-in-new-tab, which Zensical does not support
+extra_css = ["assets/extra/external-links.css"]
+extra_javascript = ["assets/extra/external-links.js"]
+
+# Navigation is defined in docs/.nav.yml
+[project.plugins.awesome-nav]
+
+# Old blog-plugin URLs; the blog plugin is not yet supported by Zensical
+[project.plugins.redirects.redirect_maps]
+"updates/2024/05/20/welcome.md" = "updates/posts/2024-05-20_Welcome.md"
+"updates/archive/2024.md" = "updates/index.md"
+
+[project.theme]
+variant = "classic"
+logo = "assets/ufp.png"
+favicon = "assets/favicon.ico"
+features = [
+  "navigation.instant",
+  "navigation.indexes",
+  "navigation.tabs.sticky",
+  "navigation.sections",
+  "navigation.top",
+  "navigation.footer",
+  "search.suggest",
+  "search.highlight",
+  "content.action.edit",
+]
+
+[project.theme.font]
+text = "Poppins"
+code = "Roboto Mono"
+
+[project.theme.icon]
+repo = "fontawesome/brands/github"
+
+# Palette toggle for automatic mode
+[[project.theme.palette]]
+media = "(prefers-color-scheme)"
+toggle.icon = "material/brightness-auto"
+toggle.name = "Switch to light mode"
+
+# Palette toggle for light mode
+[[project.theme.palette]]
+media = "(prefers-color-scheme: light)"
+scheme = "default"
+primary = "indigo"
+toggle.icon = "material/brightness-7"
+toggle.name = "Switch to dark mode"
+
+# Palette toggle for dark mode
+[[project.theme.palette]]
+media = "(prefers-color-scheme: dark)"
+scheme = "slate"
+primary = "indigo"
+toggle.icon = "material/brightness-4"
+toggle.name = "Switch to system preference"
+
+[project.markdown_extensions.pymdownx.highlight]
+anchor_linenums = true
+
+[project.markdown_extensions.pymdownx.superfences]
+
+[project.extra.analytics]
+provider = "google"
+property = "G-8SLEKZZS4E"
+
+[[project.extra.social]]
+icon = "fontawesome/brands/github"
+link = "https://github.com/unofficialpropel"
+
+[[project.extra.social]]
+icon = "fontawesome/brands/discourse"
+link = "https://pug.unofficialpropel.com"
