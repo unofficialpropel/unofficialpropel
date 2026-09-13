@@ -2,9 +2,9 @@
 	"version": "2.0.0",
 	"tasks": [
 		{
-			"label": "MKDocs Serve",
+			"label": "Zensical Serve",
 			"type": "shell",
-			"command": "mkdocs serve",
+			"command": "uv run zensical serve",
 			"group": "none",
 			"isBackground": true,
 			"presentation": {
@@ -16,8 +16,8 @@
 					"base": "$tsc",
 					"background": {
 						"activeOnStart": true,
-						"beginsPattern": "Building documentation",
-						"endsPattern": "Serving"
+						"beginsPattern": "Build started",
+						"endsPattern": "(No issues found|issues? found|Build finished)"
 					}
 				}
 			]
